@@ -1,5 +1,5 @@
 import json
-file_path=r"C:\Users\kapil.tyagi_vvdntech\Desktop\CarService-main\CarService-main\src\api.json"
+file_path=r"api.json"
 
 def load_config(file_path):
     """Load the configuration from a JSON file."""

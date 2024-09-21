@@ -2,7 +2,7 @@ import pandas as pd
 
 def read_csv():
     try:
-        file=r"C:\Users\kapil.tyagi_vvdntech\Desktop\CarService-main\CarService-main\src\CarData.csv"
+        file=r"CarData.csv"
         df = pd.read_csv(file)
         carData = f"""Car Data :  {df.to_string()}"""
         return carData
